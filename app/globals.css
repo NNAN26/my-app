@@ -24,3 +24,115 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.section1-box{
+  background-color: rgb(255, 227, 208);
+}
+
+.section1-name{
+  text-align: center;
+  color: rgb(218, 59, 246);
+  font-size: 60px;
+  
+}
+
+.barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.itim-regular {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section1-meta-data{
+  text-align: center;
+  color: rgb(204, 69, 214);
+  font-size: 30px;
+}
+.section1-profile-picture{
+  width: 500px;
+  margin-left: 35%;
+}
+.section1-profile-description{
+  font-size: 30px;
+  color: #ee6eea;
+  text-align: center;
+}
+
+.section2-box{
+  background-color:  rgb(246, 231, 221) ;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+}
+.section2-contact-link{
+  color: blueviolet;
+  text-align: center;
+  font-size: 40px;
+  
+
+}
+.section3-box{
+  display: flex;
+
+}
+.section3-box-a{
+  margin: auto;
+  width: 100%;
+  background-color: #f4a7f1;
+}
+
+.section3-box-a-study{
+  font-size: 40px;
+  color: blueviolet;
+  text-align: center;
+}
+.section3-box-a-study1{
+  text-align: center;
+  font-size: 30px;
+  color:  rgb(255, 255, 255) ;
+}
+
+.section3-box-b{
+  width: 100%;
+  margin: auto;
+ background-color:  rgb(245, 223, 209);
+
+}
+.section3-box-b-work{
+  font-size: 40px;
+  color: blueviolet;
+  text-align: center;
+}
+.section3-box-b-work1{
+  text-align: center;
+  font-size: 30px;
+  color: #ee6eea;
+}
+
+.menu-section{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(241, 149, 239);
+}
+.menu-item{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  padding: 20px;
+}
+.profile-picture{
+  width: 500px;
+  margin-left: 35%;
+}
+

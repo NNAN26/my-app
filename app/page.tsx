@@ -1,103 +1,55 @@
-import Image from "next/image";
+import MenuBar from "@/components/MenuBar";
 
-export default function Home() {
-  return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm/6 text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-[family-name:var(--font-geist-mono)] font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+export default function IndexPage(){
+  return( 
+ <div>
+  <MenuBar/> 
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+  {/*สร้างเมนูด้านบน*/}
+  <div>
+    <div className="alert alert-danger" role="alert">
+      <p className=" h1 text-center  itim-regular">ตัวอย่างเว็บเท่านั้น</p>
     </div>
-  );
+    
+  </div>
+  {/*section1*/}
+  <div className="section1-box">
+    <h1 className="section1-name pacifico-regular">Hey I'm Chomphunut</h1>
+    <p className="section1-meta-data itim-regular">
+      ศึกษาอยู่ที่มหาวิทยาลัยเทคโนโลยีราชมงคลกรุงเทพ
+    </p>
+    <img src="https://scontent.fbkk14-1.fna.fbcdn.net/v/t39.30808-6/492207608_2532714323737537_5051502393639510762_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeG935yyrckvaPaGmuChsWIxypXIlsQNtTHKlciWxA21MSG4a_jdRj63YSLD7LrPUZ9VNNHtbgeUvLh-y12pqzzZ&_nc_ohc=rKw_CpkNkGEQ7kNvwEFUY_y&_nc_oc=AdnuNpq0d5fAKTKtdlWY0pl8SFYjPWQL_OoaIJEr0EbswjhngxMF0qfY9GPvo3UHrag&_nc_zt=23&_nc_ht=scontent.fbkk14-1.fna&_nc_gid=DgMYdPDbe_dF9Rs17UHNPg&oh=00_AfE9Gh9ZrQyX-FnfzUH4zvG0wc_SFZPzve1MS72yibdABA&oe=6819EA6F" alt="NAN" className="section1-profile-picture" />
+    <p className="section1-profile-description itim-regular">
+      อาหารที่ชอบ เป็นคนกินง่ายๆ <br />
+      {/*การขึ้นบรรทัดใหม่*/}
+      อย่าถามว่าไม่กินอะไร ให้ถามว่ากินอะไรบ้างง่ายกว่า
+    </p>
+  </div>
+  {/*section2*/}
+  <div className="section2-box">
+    <a className="section2-contact-link pacifico-regular" href="https://www.facebook.com/chmphunuth.ph.ng.ya?locale=th_TH">Facebook</a>
+    <br />
+    {/*-<a เป็นการใส่ลิงก์>*/}
+    <a className="section2-contact-link pacifico-regular" href="https://www.instagram.com/chomphu_nn/">Instagram</a>
+    {/*แท็กa คือการใส่ลิงก์ ก่อนใส่ต้องมีคำว่า href */}
+  </div>
+  {/*section3*/}
+  <div className="section3-box">
+    <div className="section3-box-a">
+      <h1 className="section3-box-a-study itim-regular">การศึกษา</h1>
+      <p className="section3-box-a-study1 itim-regular">
+        กำลังศึกษาอยู่ปีที่3 สาขานวัตกรรมระบบสารสนเทศ <br />
+        คณะบริหารธุรกิจ มหาวิทยาลัยเทคโนโลยีสารสนเทศ
+      </p>
+    </div>
+    <div className="section3-box-b">
+      <h1 className="section3-box-b-work itim-regular">ประสบการณ์ฝึกงาน</h1>
+      <p className="section3-box-b-work1 itim-regular">
+        ตอนเรียน ปวส. ที่วิทยาลัยเทคนิคนครนายก <br />
+        เคยฝึกงานแผนก IT Support ที่มหาวิทยาลัยศรีนครินทร์วิโรฒ
+      </p>
+    </div>
+  </div>
+</div>
+  )
 }
