@@ -7,11 +7,9 @@ export default function MenuBar() {
         หน้าหลัก
       </Link>
       <Link href='/state'className="menu-item itim-regular" >
-        เกี่ยวกับฉัน
+      ผลงาน
       </Link>
-      <Link href=''className="menu-item itim-regular" >
-        ผลงาน
-      </Link>
+      
     </div>
   );
 }
