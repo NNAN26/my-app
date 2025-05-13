@@ -1,10 +1,12 @@
 import MenuBar from "@/components/MenuBar";
 
-
+type MenubarProps = {
+  page : string;
+}
 export default function IndexPage(){
   return( 
  <div>
-  <MenuBar/> 
+  <MenuBar page={"หน้าแรก"}/> 
 
   {/*สร้างเมนูด้านบน*/}
   <div>
